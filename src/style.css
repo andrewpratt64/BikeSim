@@ -1,0 +1,148 @@
+/* Andrew Pratt 2020 */
+
+body
+{
+	width: 	100vw;
+	height:	100vh;
+}
+
+/* START MENU */
+#container_start
+{
+	height: 100%;
+	
+	background-image:	url("res/tile.png");
+	background-size:	initial;
+}
+
+#startImgArea
+{
+	height: 75%;
+}
+
+#startImg
+{
+	width:	160vmin;
+	height:	80vmin;
+}
+
+#startBtnArea
+{
+	height:	25%;
+}
+
+#startBtn
+{
+	width:	66%;
+	
+	text-align:	center;
+	margin:		auto;
+}
+
+
+/* IN-GAME */
+
+#container_inGame
+{
+	display: none;
+	
+	height: 100%;
+	
+	background-image:	url("res/game_bg.jpg");
+	background-size:	cover;
+}
+
+#gameHeader
+{
+	height: 17%;
+}
+
+#gameArea
+{
+	height: 83%;
+}
+
+#scoreText
+{
+	color:		white;
+	font-size:	2em;
+	font-family:"Comic Sans MS", cursive, sans-serif;
+}
+
+
+#bikeImg
+{
+	width:	128px;
+	height:	128px;
+	
+	left:	5px;
+	/*bottom: 5px;*/
+	
+	position:	absolute;
+}
+
+#sidewalkImg
+{
+	width: 	100%;
+	height:	10%;
+	
+	bottom:	0px;
+	
+	position:	absolute;
+	
+	background-image:	url("res/sidewalk.png");
+}
+
+#obstacleImg
+{
+	width:	64px;
+	height:	114px;
+	
+	position:	absolute;
+}
+
+
+/* INJURED */
+
+#container_injured
+{
+	display: none;
+	
+	height: 100%;
+	
+	background-image:	url("res/injured_bg.png");
+	background-size:	cover;
+}
+
+#injuredParagraphArea
+{
+	height:	30%;
+}
+
+#injuredParagraphText
+{
+	color: 		#3f00ff;
+	font-family:"Trebuchet MS", Helvetica, sans-serif;
+	font-size:	0.8em;
+	font-weight:500;
+	text-align:	center;
+	/*text-shadow: 2px 2px #400000;
+	-webkit-text-stroke-color: #400000;
+	-webkit-text-stroke-width: 1px;*/
+	background-color: #ffffffb3;
+}
+
+#injuredCounterArea
+{
+	color:		#0023ce;
+	font-family:	Impact, Charcoal, sans-serif;
+	font-size:	2em;
+	font-weight:500;
+	text-align: center;
+}
+
+#injuredCounterHeader
+{
+	display:	inline;
+	text-align: right;
+}
